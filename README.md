@@ -6,6 +6,10 @@ Every existing option (Oson Prava, Prava Plus, the official terminals) is Uzbek 
 This is for the English-speaking people living in Uzbekistan who need a licence and can't read the
 question bank.
 
+## Demo Video on Youtube 🎥 Click on the Image Below
+
+[![Watch the demo](https://img.youtube.com/vi/8lLjjLheCaM/maxresdefault.jpg)](https://youtu.be/8lLjjLheCaM)
+
 ## What's in it
 
 - **78 original questions** across 12 topics, written from the Traffic Rules of the Republic of
