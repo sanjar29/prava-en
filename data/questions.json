@@ -1,0 +1,1070 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "language": "en",
+    "jurisdiction": "Republic of Uzbekistan",
+    "basis": "Original questions authored from the Traffic Rules of the Republic of Uzbekistan (PDD, 29 chapters, as amended 12 April 2022) and current licensing regulations.",
+    "disclaimer": "Study aid only. Not an official government product and not affiliated with the DYHXX/SBDD. Always verify against the current official rules.",
+    "exam": {
+      "questionCount": 20,
+      "timeLimitMinutes": 25,
+      "maxMistakes": 2,
+      "passScore": 18
+    }
+  },
+  "categories": [
+    { "id": "duties", "name": "Driver Duties & Documents", "icon": "📋" },
+    { "id": "signals", "name": "Traffic Lights & Officer Signals", "icon": "🚦" },
+    { "id": "signs", "name": "Road Signs & Markings", "icon": "🛑" },
+    { "id": "priority", "name": "Intersections & Right of Way", "icon": "🔀" },
+    { "id": "speed", "name": "Speed Limits", "icon": "⏱️" },
+    { "id": "overtaking", "name": "Overtaking & Manoeuvring", "icon": "↔️" },
+    { "id": "parking", "name": "Stopping & Parking", "icon": "🅿️" },
+    { "id": "lighting", "name": "Lights & Visibility", "icon": "💡" },
+    { "id": "special", "name": "Railways, Highways & Special Zones", "icon": "🛤️" },
+    { "id": "vulnerable", "name": "Pedestrians, Cyclists & Scooters", "icon": "🚶" },
+    { "id": "firstaid", "name": "Accidents & First Aid", "icon": "🩹" },
+    { "id": "vehicle", "name": "Vehicle Condition & Towing", "icon": "🔧" }
+  ],
+  "questions": [
+    {
+      "id": "duties-01",
+      "category": "duties",
+      "question": "Which set of documents must a driver of a passenger car be able to present to a traffic officer in Uzbekistan?",
+      "options": [
+        "Driving licence only",
+        "Driving licence, vehicle registration certificate and a valid compulsory third-party liability insurance policy",
+        "Passport and driving licence only",
+        "Vehicle registration certificate and a technical inspection receipt"
+      ],
+      "answer": 1,
+      "explanation": "The rules require the licence for the relevant category, the vehicle registration certificate and a valid compulsory liability insurance policy. Holders of a biometric passport or ID card may have these verified digitally by the officer's tablet.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "duties-02",
+      "category": "duties",
+      "question": "What is the permitted blood alcohol level for a driver in Uzbekistan?",
+      "options": [
+        "0.3 promille",
+        "0.5 promille, the same as most of Europe",
+        "None — driving under the influence of alcohol is prohibited outright",
+        "0.2 promille for experienced drivers only"
+      ],
+      "answer": 2,
+      "explanation": "Uzbekistan applies a zero-tolerance standard: a driver may not operate a vehicle while under the influence of alcohol, narcotics or psychotropic substances, and may not hand the vehicle to someone who is.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "duties-03",
+      "category": "duties",
+      "question": "May a driver use a mobile phone while driving?",
+      "options": [
+        "Yes, at any time",
+        "Only if the vehicle is equipped with hands-free equipment",
+        "Only outside populated areas",
+        "Only when stopped at a red light"
+      ],
+      "answer": 1,
+      "explanation": "Talking on a phone while driving is permitted only with hands-free equipment that leaves both hands free for control of the vehicle.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "duties-04",
+      "category": "duties",
+      "question": "Who is exempt from the requirement to wear a seat belt?",
+      "options": [
+        "Nobody — everyone in the vehicle must be belted",
+        "Only the driver may be unbelted",
+        "Children under 12 seated in the rear, driving instructors while teaching, pregnant women and emergency service personnel on duty",
+        "Anyone travelling less than 5 km"
+      ],
+      "answer": 2,
+      "explanation": "The seat belt requirement applies to every vehicle fitted with belts, with narrow exemptions including rear-seated children under 12, instructors during a lesson, pregnant women and emergency personnel performing their duties.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "duties-05",
+      "category": "duties",
+      "question": "You have stopped on the carriageway at night outside a populated area. What must you wear when you step out of the vehicle?",
+      "options": [
+        "Nothing specific is required",
+        "A reflective (high-visibility) vest",
+        "A helmet",
+        "Gloves and closed shoes"
+      ],
+      "answer": 1,
+      "explanation": "A driver who leaves the vehicle on the carriageway in darkness or conditions of poor visibility must wear a reflective vest so as to be seen by other road users.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "duties-06",
+      "category": "duties",
+      "question": "In which of the following conditions is a driver prohibited from driving?",
+      "options": [
+        "When feeling tired or unwell to a degree that affects road safety",
+        "When carrying more than three passengers",
+        "When the fuel tank is less than a quarter full",
+        "When driving a vehicle registered in another region"
+      ],
+      "answer": 0,
+      "explanation": "A driver must not drive when fatigued or in a state of health that could compromise safety and the ability to control the vehicle.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "duties-07",
+      "category": "duties",
+      "question": "What is the minimum age to obtain a category B (passenger car) licence in Uzbekistan?",
+      "options": ["16", "17", "18", "21"],
+      "answer": 2,
+      "explanation": "Category B is issued from the age of 18. Other categories have different minimum ages set by the licensing regulations.",
+      "rule": "Licensing regulations (Cabinet of Ministers Resolution No. 408)"
+    },
+    {
+      "id": "duties-08",
+      "category": "duties",
+      "question": "The theory exam consists of 20 questions. How many mistakes are you allowed and how long do you have?",
+      "options": [
+        "No mistakes, 20 minutes",
+        "Up to 2 mistakes, 25 minutes",
+        "Up to 3 mistakes, 30 minutes",
+        "Up to 5 mistakes, 40 minutes"
+      ],
+      "answer": 1,
+      "explanation": "The theory exam is 20 single-answer questions in 25 minutes; you pass with at least 18 correct answers, so no more than 2 mistakes.",
+      "rule": "Examination procedure"
+    },
+    {
+      "id": "signals-01",
+      "category": "signals",
+      "question": "A traffic light shows a flashing green signal. What does it mean?",
+      "options": [
+        "Movement is prohibited",
+        "Movement is permitted, but the signal is about to change",
+        "The intersection is uncontrolled",
+        "Only turning right is permitted"
+      ],
+      "answer": 1,
+      "explanation": "A flashing green permits movement but warns that the permission is about to expire and a prohibiting signal will follow.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-02",
+      "category": "signals",
+      "question": "A flashing yellow signal at an intersection means:",
+      "options": [
+        "Stop and wait for green",
+        "The traffic light is faulty and must be reported",
+        "Movement is permitted; the intersection is uncontrolled and you must apply the priority rules",
+        "Only public transport may proceed"
+      ],
+      "answer": 2,
+      "explanation": "A flashing yellow allows movement but tells you the intersection is unregulated, so right-of-way is determined by signs and the general priority rules.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-03",
+      "category": "signals",
+      "question": "The traffic light shows red together with yellow. What may you do?",
+      "options": [
+        "Move off immediately",
+        "Move off only if turning right",
+        "Nothing — movement is still prohibited; the combination warns that green is coming",
+        "Proceed with caution"
+      ],
+      "answer": 2,
+      "explanation": "Red plus yellow still prohibits movement. It only informs drivers that a green signal is about to be switched on.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-04",
+      "category": "signals",
+      "question": "The yellow signal comes on when you are so close to the stop line that stopping would require emergency braking. What should you do?",
+      "options": [
+        "Brake as hard as necessary to stop before the line",
+        "Continue through the intersection",
+        "Stop in the middle of the intersection",
+        "Reverse back behind the stop line"
+      ],
+      "answer": 1,
+      "explanation": "Yellow prohibits movement, but a driver who cannot stop without emergency braking is permitted to continue. Emergency braking risks a rear-end collision.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-05",
+      "category": "signals",
+      "question": "A traffic controller stands with both arms extended sideways. What does this mean for you if you are approaching him from the front?",
+      "options": [
+        "You may proceed straight ahead",
+        "Movement from the front and from behind him is prohibited; traffic from his sides may proceed",
+        "You may turn right only",
+        "You must stop and switch off the engine"
+      ],
+      "answer": 1,
+      "explanation": "With arms extended sideways (or lowered), traffic approaching the controller's chest and back is stopped; traffic approaching his left and right sides may move.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-06",
+      "category": "signals",
+      "question": "The traffic controller raises his arm upwards. What does this signal mean?",
+      "options": [
+        "All road users may proceed",
+        "Traffic is prohibited in all directions",
+        "Only vehicles turning right may proceed",
+        "Pedestrians may cross"
+      ],
+      "answer": 1,
+      "explanation": "An arm raised vertically prohibits movement of all road users in every direction, apart from the narrow exceptions in the rules for drivers who cannot stop safely.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-07",
+      "category": "signals",
+      "question": "The traffic controller's signals contradict the traffic light. Which do you follow?",
+      "options": [
+        "The traffic light, because it is automatic",
+        "The traffic controller",
+        "Whichever permits movement",
+        "Neither — you must stop until they agree"
+      ],
+      "answer": 1,
+      "explanation": "The signals and instructions of a traffic controller take precedence over traffic lights, road signs and markings.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "signals-08",
+      "category": "signals",
+      "question": "A green arrow pointing left is illuminated. Unless a sign forbids it, what else does this arrow permit?",
+      "options": [
+        "Driving straight ahead",
+        "A U-turn",
+        "Reversing",
+        "Stopping on the intersection"
+      ],
+      "answer": 1,
+      "explanation": "A signal permitting a left turn also permits a U-turn, unless a road sign in force at that location prohibits it.",
+      "rule": "Ch. 7 — Traffic light and controller signals"
+    },
+    {
+      "id": "priority-01",
+      "category": "priority",
+      "question": "You approach an unregulated intersection of two roads of equal importance. Who has right of way?",
+      "options": [
+        "The vehicle approaching from the right",
+        "The vehicle approaching from the left",
+        "The faster vehicle",
+        "The vehicle going straight ahead, whichever side it comes from"
+      ],
+      "answer": 0,
+      "explanation": "At an unregulated intersection of equal roads, a driver must give way to vehicles approaching from the right.",
+      "rule": "Ch. 16 — Unregulated intersections"
+    },
+    {
+      "id": "priority-02",
+      "category": "priority",
+      "question": "At an unregulated intersection a tram and a car of equal road status arrive at the same time. Who goes first?",
+      "options": [
+        "The car, if it is on the right",
+        "The tram, in all directions",
+        "Whichever arrived first",
+        "The car, because trams must always yield"
+      ],
+      "answer": 1,
+      "explanation": "At unregulated intersections a tram has priority over wheeled vehicles travelling on a road of equal status, regardless of its direction of travel.",
+      "rule": "Ch. 16 — Unregulated intersections"
+    },
+    {
+      "id": "priority-03",
+      "category": "priority",
+      "question": "You are turning left at an unregulated intersection on a road of equal status. Who must you give way to?",
+      "options": [
+        "Nobody, if you signalled in time",
+        "Oncoming vehicles travelling straight ahead or turning right",
+        "Only vehicles that are already in the intersection",
+        "Only pedestrians"
+      ],
+      "answer": 1,
+      "explanation": "When turning left or making a U-turn, you must give way to oncoming traffic proceeding straight ahead or turning right on a road of equal status.",
+      "rule": "Ch. 16 — Unregulated intersections"
+    },
+    {
+      "id": "priority-04",
+      "category": "priority",
+      "question": "It is dark and you cannot tell whether the surface you are driving on is a main road; no priority signs are visible. What must you assume?",
+      "options": [
+        "That you are on the main road",
+        "That you are on a secondary road and must give way",
+        "That the intersection is regulated",
+        "That normal right-hand priority applies"
+      ],
+      "answer": 1,
+      "explanation": "If the type of road surface cannot be determined because of darkness, mud, snow or similar conditions and there are no priority signs, the driver must consider himself to be on a secondary road.",
+      "rule": "Ch. 16 — Unregulated intersections"
+    },
+    {
+      "id": "priority-05",
+      "category": "priority",
+      "question": "A vehicle with a flashing blue beacon and a siren is approaching from behind. What must you do?",
+      "options": [
+        "Brake sharply and stop where you are",
+        "Give way, clearing a path for it, without creating danger for other road users",
+        "Increase speed to stay ahead of it",
+        "Continue normally — the siren does not affect you"
+      ],
+      "answer": 1,
+      "explanation": "When a vehicle displays a flashing blue beacon together with a special sound signal, drivers must give way and allow it a free passage, doing so safely rather than by braking abruptly.",
+      "rule": "Ch. 6 — Priority of special vehicles"
+    },
+    {
+      "id": "priority-06",
+      "category": "priority",
+      "question": "The main road changes direction at an unregulated intersection. How do drivers on the main road determine priority between themselves?",
+      "options": [
+        "The driver going straight always has priority",
+        "By the rules for intersections of equal roads — give way to the right",
+        "The driver following the main road has priority over all others",
+        "Priority is determined by vehicle size"
+      ],
+      "answer": 1,
+      "explanation": "Where the main road changes direction, drivers travelling on it apply the equal-road rules among themselves; drivers on the secondary road do the same among themselves.",
+      "rule": "Ch. 16 — Unregulated intersections"
+    },
+    {
+      "id": "priority-07",
+      "category": "priority",
+      "question": "Traffic on the far side of an intersection is congested. May you enter the intersection on a green light?",
+      "options": [
+        "Yes, green always permits entry",
+        "No, if it would force you to stop inside and block crossing traffic",
+        "Yes, provided you sound your horn first",
+        "Only if you are turning right"
+      ],
+      "answer": 1,
+      "explanation": "A driver must not enter an intersection, including on a permitting signal, if congestion would force him to stop within it and obstruct traffic crossing in another direction.",
+      "rule": "Ch. 14 — Crossing intersections"
+    },
+    {
+      "id": "speed-01",
+      "category": "speed",
+      "question": "What is the general speed limit for a passenger car in a populated area in Uzbekistan, where no sign says otherwise?",
+      "options": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "answer": 2,
+      "explanation": "The general limit in populated areas is 70 km/h, but note that Tashkent, Nukus, regional centres and urban settlements are limited to 60 km/h.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "speed-02",
+      "category": "speed",
+      "question": "You are driving in Tashkent on a street with no speed signs. What is your limit?",
+      "options": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "answer": 1,
+      "explanation": "In Tashkent, Nukus, regional centres and urban-type settlements the limit is 60 km/h — lower than the general 70 km/h for populated areas. This catches out many drivers.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "speed-03",
+      "category": "speed",
+      "question": "What is the maximum speed within 300 metres of a school or pre-school institution?",
+      "options": ["20 km/h", "30 km/h", "40 km/h", "60 km/h"],
+      "answer": 1,
+      "explanation": "Within 300 metres of schools and pre-school institutions the speed must not exceed 30 km/h.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "speed-04",
+      "category": "speed",
+      "question": "What is the maximum speed in a residential zone or a courtyard area (dvor)?",
+      "options": ["10 km/h", "20 km/h", "30 km/h", "40 km/h"],
+      "answer": 1,
+      "explanation": "In residential zones and adjacent courtyard territories the limit is 20 km/h, and pedestrians have priority over vehicles there.",
+      "rule": "Ch. 11 & Ch. 20 — Speed; residential zones"
+    },
+    {
+      "id": "speed-05",
+      "category": "speed",
+      "question": "Outside a populated area, what is the maximum speed for a passenger car or a truck with a permitted maximum mass up to 3.5 tonnes?",
+      "options": ["80 km/h", "90 km/h", "100 km/h", "110 km/h"],
+      "answer": 2,
+      "explanation": "Outside populated areas cars and light trucks up to 3.5 tonnes may travel at up to 100 km/h, subject to any lower posted limit.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "speed-06",
+      "category": "speed",
+      "question": "Outside a populated area, what is the maximum speed for a motorcycle, a car towing a trailer, or a truck over 3.5 tonnes?",
+      "options": ["70 km/h", "80 km/h", "90 km/h", "100 km/h"],
+      "answer": 1,
+      "explanation": "These vehicles are limited to 80 km/h outside populated areas. Intercity buses and minibuses may do 90 km/h; a truck with a trailer is limited to 70 km/h.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "speed-07",
+      "category": "speed",
+      "question": "What is the maximum speed when towing another mechanical vehicle?",
+      "options": ["30 km/h", "40 km/h", "50 km/h", "60 km/h"],
+      "answer": 2,
+      "explanation": "Towing a mechanical vehicle is limited to 50 km/h on all roads, whatever the general limit.",
+      "rule": "Ch. 11 & Ch. 24 — Speed; towing"
+    },
+    {
+      "id": "speed-08",
+      "category": "speed",
+      "question": "What is the maximum speed for a vehicle carrying an organised group of children?",
+      "options": ["50 km/h", "60 km/h", "70 km/h", "80 km/h"],
+      "answer": 1,
+      "explanation": "Vehicles transporting organised groups of children are limited to 60 km/h on any road, as are trucks carrying people in the cargo area.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "speed-09",
+      "category": "speed",
+      "question": "Which of the following must a driver take into account when choosing speed, even below the posted limit?",
+      "options": [
+        "Only the posted limit matters",
+        "Traffic intensity, the condition of the vehicle and load, road and weather conditions, and visibility",
+        "Only the presence of traffic police",
+        "Only the vehicle's engine power"
+      ],
+      "answer": 1,
+      "explanation": "Speed must allow constant control of the vehicle, taking traffic intensity, vehicle and load condition, road and weather conditions and visibility into account. The posted limit is a ceiling, not a target.",
+      "rule": "Ch. 11 — Speed of movement"
+    },
+    {
+      "id": "overtaking-01",
+      "category": "overtaking",
+      "question": "Before beginning to overtake, what must the driver make sure of?",
+      "options": [
+        "Only that the road ahead is clear",
+        "That the lane he will use is free for a sufficient distance, no vehicle behind has begun to overtake him, the vehicle ahead is not signalling a left turn, and he can return to his lane safely",
+        "That he has signalled — nothing else is required",
+        "That the vehicle ahead has flashed its lights"
+      ],
+      "answer": 1,
+      "explanation": "All four conditions must be satisfied before the manoeuvre starts, and the driver must signal his intention beforehand.",
+      "rule": "Ch. 12 — Overtaking"
+    },
+    {
+      "id": "overtaking-02",
+      "category": "overtaking",
+      "question": "The vehicle ahead of you has switched on its left turn signal. On which side may you overtake it?",
+      "options": [
+        "On the left",
+        "On the right",
+        "On either side",
+        "Overtaking is forbidden in this situation"
+      ],
+      "answer": 1,
+      "explanation": "A vehicle signalling a left turn must be overtaken on the right. In general the rules permit overtaking wheeled vehicles travelling in the same direction on either side, but this case is an exception.",
+      "rule": "Ch. 12 — Overtaking"
+    },
+    {
+      "id": "overtaking-03",
+      "category": "overtaking",
+      "question": "In which of the following places is overtaking prohibited?",
+      "options": [
+        "On a straight road outside a populated area",
+        "On bridges, pedestrian crossings, and within 100 metres of a railway crossing",
+        "On any road with two lanes in each direction",
+        "Whenever it is raining"
+      ],
+      "answer": 1,
+      "explanation": "Overtaking is prohibited at regulated intersections, at unregulated intersections when on a secondary road, on bridges and overpasses, at pedestrian crossings, within 100 m before railway crossings, on hill crests and where visibility is limited.",
+      "rule": "Ch. 12 — Overtaking"
+    },
+    {
+      "id": "overtaking-04",
+      "category": "overtaking",
+      "question": "You are being overtaken. What are you forbidden from doing?",
+      "options": [
+        "Maintaining your speed",
+        "Increasing your speed or otherwise obstructing the overtaking vehicle",
+        "Moving to the right",
+        "Using your mirrors"
+      ],
+      "answer": 1,
+      "explanation": "A driver being overtaken must not increase speed or take any other action that would prevent the overtaking manoeuvre from being completed.",
+      "rule": "Ch. 12 — Overtaking"
+    },
+    {
+      "id": "overtaking-05",
+      "category": "overtaking",
+      "question": "Outside a populated area, a queue of vehicles has built up behind your slow-moving or oversized vehicle and overtaking is difficult. What should you do?",
+      "options": [
+        "Maintain speed and position",
+        "Move over to the right and, if necessary, stop to let the accumulated vehicles pass",
+        "Speed up until the queue disperses",
+        "Signal left to warn them not to overtake"
+      ],
+      "answer": 1,
+      "explanation": "Drivers of slow or large vehicles must pull as far right as possible, and stop if necessary, to let the vehicles behind them past.",
+      "rule": "Ch. 12 — Overtaking"
+    },
+    {
+      "id": "overtaking-06",
+      "category": "overtaking",
+      "question": "You have completed an overtake. What must you do next?",
+      "options": [
+        "Stay in the lane you used, if it is free",
+        "Return to your previously occupied lane",
+        "Accelerate to create distance",
+        "Signal to thank the other driver"
+      ],
+      "answer": 1,
+      "explanation": "After overtaking the driver must return to the lane he previously occupied, having first made sure this is safe.",
+      "rule": "Ch. 12 — Overtaking"
+    },
+    {
+      "id": "parking-01",
+      "category": "parking",
+      "question": "What is the difference between 'stopping' and 'parking' in the traffic rules?",
+      "options": [
+        "There is no legal difference",
+        "Stopping is a deliberate halt of up to 5 minutes, or longer if needed to board passengers or load goods; parking is a longer deliberate halt",
+        "Stopping applies only to buses",
+        "Parking is only what happens in a marked car park"
+      ],
+      "answer": 1,
+      "explanation": "Stopping is a halt of up to 5 minutes, or longer if it is needed for passengers to get in or out or for loading; anything beyond that is parking.",
+      "rule": "Ch. 1 & Ch. 13 — Definitions; stopping and parking"
+    },
+    {
+      "id": "parking-02",
+      "category": "parking",
+      "question": "Where is stopping prohibited?",
+      "options": [
+        "On a pedestrian crossing and closer than 5 metres before it",
+        "Anywhere on a two-lane road",
+        "Within 50 metres of any bus stop, on any road",
+        "On any road at night"
+      ],
+      "answer": 0,
+      "explanation": "Stopping is prohibited on pedestrian crossings and within 5 metres before them, on level crossings, in tunnels, on bridges and overpasses where fewer than three lanes remain, and wherever the vehicle would obstruct traffic or hide a signal from other drivers.",
+      "rule": "Ch. 13 — Stopping and parking"
+    },
+    {
+      "id": "parking-03",
+      "category": "parking",
+      "question": "Your vehicle has broken down where stopping is prohibited. What must you do?",
+      "options": [
+        "Leave it and go for help immediately",
+        "Switch on hazard warning lights, place a warning triangle and move the vehicle out of the prohibited place as soon as possible",
+        "Nothing — a breakdown excuses any position",
+        "Push it onto the pavement"
+      ],
+      "answer": 1,
+      "explanation": "The driver must switch on the hazard warning lights, display the emergency stop sign (triangle) and take steps to remove the vehicle from the place where stopping is forbidden.",
+      "rule": "Ch. 8 & Ch. 13 — Warning signals; stopping"
+    },
+    {
+      "id": "parking-04",
+      "category": "parking",
+      "question": "Outside a populated area, on which side of the road may you park for a rest?",
+      "options": [
+        "Either side, as convenient",
+        "On the left side only",
+        "On the right side, on the shoulder — and if there is no shoulder, at the edge of the carriageway",
+        "In the middle of the carriageway with hazards on"
+      ],
+      "answer": 2,
+      "explanation": "Outside populated areas a vehicle stopped for a long rest must be placed off the carriageway, on the shoulder or in a designated area, on the right-hand side.",
+      "rule": "Ch. 13 — Stopping and parking"
+    },
+    {
+      "id": "parking-05",
+      "category": "parking",
+      "question": "At what distance must the emergency stop sign (warning triangle) be placed outside a populated area?",
+      "options": [
+        "At least 5 metres from the vehicle",
+        "At least 15 metres from the vehicle",
+        "At least 30 metres from the vehicle",
+        "Directly behind the vehicle"
+      ],
+      "answer": 2,
+      "explanation": "The triangle is placed at least 15 m from the vehicle in populated areas and at least 30 m outside them, and further if visibility requires it.",
+      "rule": "Ch. 8 — Warning and emergency signals"
+    },
+    {
+      "id": "lighting-01",
+      "category": "lighting",
+      "question": "You are driving at night on an unlit road and an oncoming vehicle is 150 metres away. What must you do?",
+      "options": [
+        "Keep the high beam on until it passes",
+        "Switch from high beam to low beam",
+        "Switch off all lights briefly",
+        "Flash the high beam repeatedly"
+      ],
+      "answer": 1,
+      "explanation": "High beam must be switched to low beam no later than 150 m before an oncoming vehicle, and earlier if the other driver signals that he is being dazzled.",
+      "rule": "Ch. 23 — Use of external lighting devices"
+    },
+    {
+      "id": "lighting-02",
+      "category": "lighting",
+      "question": "You have been dazzled by an oncoming vehicle's headlights. What must you do?",
+      "options": [
+        "Speed up to pass the vehicle sooner",
+        "Switch on the hazard warning lights, slow down and stop without changing lanes",
+        "Steer to the right and continue at the same speed",
+        "Flash your own high beam in return"
+      ],
+      "answer": 1,
+      "explanation": "A dazzled driver must switch on the hazard warning lights and, without changing lanes, reduce speed and stop.",
+      "rule": "Ch. 23 — Use of external lighting devices"
+    },
+    {
+      "id": "lighting-03",
+      "category": "lighting",
+      "question": "When must a motorcycle or scooter use low beam headlights?",
+      "options": [
+        "Only at night",
+        "Only in tunnels",
+        "During daytime driving as well",
+        "Only outside populated areas"
+      ],
+      "answer": 2,
+      "explanation": "Motorcycles and scooters must run low beam in daylight too, along with convoys, buses carrying organised groups of children, towing vehicles and vehicles carrying dangerous or oversized loads.",
+      "rule": "Ch. 23 — Use of external lighting devices"
+    },
+    {
+      "id": "lighting-04",
+      "category": "lighting",
+      "question": "Must headlights be used when driving through a tunnel?",
+      "options": [
+        "Only if the tunnel is unlit",
+        "Yes, regardless of whether the tunnel is lit",
+        "Only if the tunnel is longer than 500 metres",
+        "No, tunnel lighting is sufficient"
+      ],
+      "answer": 1,
+      "explanation": "Headlights must be switched on in tunnels irrespective of the tunnel's own lighting.",
+      "rule": "Ch. 23 — Use of external lighting devices"
+    },
+    {
+      "id": "lighting-05",
+      "category": "lighting",
+      "question": "Your vehicle is parked at night on an unlit section of road. What lights must be on?",
+      "options": [
+        "High beam",
+        "Parking (side) lights",
+        "No lights at all, to save the battery",
+        "Reversing lights"
+      ],
+      "answer": 1,
+      "explanation": "A vehicle stopped or parked at night on an unlit road must show parking lights; in poor visibility low beam and fog lights may be used as well.",
+      "rule": "Ch. 23 — Use of external lighting devices"
+    },
+    {
+      "id": "lighting-06",
+      "category": "lighting",
+      "question": "In which situation must hazard warning lights be switched on?",
+      "options": [
+        "When parking in a permitted place",
+        "When the vehicle is being towed, after a forced stop where stopping is prohibited, or when the driver has been dazzled",
+        "When driving through a populated area at night",
+        "Whenever it rains"
+      ],
+      "answer": 1,
+      "explanation": "Hazard lights are required in an accident, on a forced stop where stopping is prohibited, when dazzled, when being towed and when boarding or alighting children from a marked vehicle.",
+      "rule": "Ch. 8 — Warning and emergency signals"
+    },
+    {
+      "id": "special-01",
+      "category": "special",
+      "question": "You are approaching a railway level crossing with no barrier and the traffic light is off. What must you do?",
+      "options": [
+        "Cross without slowing, since no signal is showing",
+        "Stop, check that no train is approaching from either direction, then cross",
+        "Sound the horn and cross quickly",
+        "Wait five minutes before crossing"
+      ],
+      "answer": 1,
+      "explanation": "A driver may only cross a level crossing after making sure that no train is approaching. Where visibility or signals are unclear, he must stop and verify before proceeding.",
+      "rule": "Ch. 18 — Crossing railway tracks"
+    },
+    {
+      "id": "special-02",
+      "category": "special",
+      "question": "Which of the following is prohibited at a railway level crossing?",
+      "options": [
+        "Crossing in first or second gear",
+        "Overtaking, stopping on the crossing, and driving around a lowered barrier",
+        "Using low beam headlights",
+        "Crossing with a trailer"
+      ],
+      "answer": 1,
+      "explanation": "Drivers must not overtake at a crossing, stop on it, drive around lowered barriers or cross when a prohibiting signal is shown.",
+      "rule": "Ch. 18 — Crossing railway tracks"
+    },
+    {
+      "id": "special-03",
+      "category": "special",
+      "question": "Which of the following is prohibited on a motorway (avtomagistral)?",
+      "options": [
+        "Driving at 90 km/h",
+        "Reversing, U-turns, stopping outside designated areas, and vehicles unable to exceed 40 km/h",
+        "Overtaking in the left lane",
+        "Using cruise control"
+      ],
+      "answer": 1,
+      "explanation": "Motorways prohibit pedestrians, animals, cycles, vehicles that cannot maintain more than 40 km/h, reversing, U-turns through the central reservation, and stopping outside designated parking areas.",
+      "rule": "Ch. 19 — Driving on motorways"
+    },
+    {
+      "id": "special-04",
+      "category": "special",
+      "question": "In a residential zone, who has priority?",
+      "options": [
+        "Vehicles, because pedestrians have pavements",
+        "Pedestrians — but they must not obstruct vehicles without need",
+        "Only public transport",
+        "Whoever arrives first"
+      ],
+      "answer": 1,
+      "explanation": "In residential zones pedestrians may use both the pavement and the carriageway and have priority, though they must not obstruct vehicles unnecessarily. The speed limit is 20 km/h.",
+      "rule": "Ch. 20 — Driving in residential zones"
+    },
+    {
+      "id": "special-05",
+      "category": "special",
+      "question": "Leaving a residential zone or a courtyard onto a road, what must you do?",
+      "options": [
+        "Nothing special — normal priority applies",
+        "Give way to all other road users, including pedestrians",
+        "Sound the horn",
+        "Give way only to vehicles coming from the right"
+      ],
+      "answer": 1,
+      "explanation": "When leaving a residential zone or an adjacent territory, the driver must give way to all other road users.",
+      "rule": "Ch. 20 — Driving in residential zones"
+    },
+    {
+      "id": "special-06",
+      "category": "special",
+      "question": "On a steep descent where two vehicles cannot pass each other, who must give way?",
+      "options": [
+        "The vehicle going uphill",
+        "The vehicle going downhill",
+        "The heavier vehicle",
+        "The vehicle closest to a passing place"
+      ],
+      "answer": 1,
+      "explanation": "Where passing is difficult on a steep gradient, the driver travelling downhill must give way to the vehicle coming up.",
+      "rule": "Ch. 21 — Driving on steep descents and ascents"
+    },
+    {
+      "id": "vulnerable-01",
+      "category": "vulnerable",
+      "question": "A pedestrian has stepped onto an unregulated pedestrian crossing. What must you do?",
+      "options": [
+        "Sound the horn to warn them",
+        "Give way and let them complete the crossing",
+        "Pass behind them quickly",
+        "Continue if you can pass at least a metre away"
+      ],
+      "answer": 1,
+      "explanation": "At an unregulated pedestrian crossing the driver must give way to pedestrians who are crossing or have stepped onto the carriageway to cross.",
+      "rule": "Ch. 17 — Pedestrian crossings and stops"
+    },
+    {
+      "id": "vulnerable-02",
+      "category": "vulnerable",
+      "question": "A vehicle in the adjacent lane has stopped at an unregulated pedestrian crossing. What must you do?",
+      "options": [
+        "Overtake it carefully",
+        "Stop as well and only proceed after making sure no pedestrian is crossing",
+        "Continue at reduced speed",
+        "Sound the horn and pass"
+      ],
+      "answer": 1,
+      "explanation": "If a vehicle has stopped in front of a crossing, drivers in adjacent lanes may continue only after stopping and satisfying themselves that no one is crossing.",
+      "rule": "Ch. 17 — Pedestrian crossings and stops"
+    },
+    {
+      "id": "vulnerable-03",
+      "category": "vulnerable",
+      "question": "What is the maximum speed for a personal mobility device (e-scooter) ridden on a pavement?",
+      "options": ["5 km/h", "10 km/h", "20 km/h", "25 km/h"],
+      "answer": 1,
+      "explanation": "Users of personal mobility devices may travel at up to 10 km/h on pavements and pedestrian paths, and up to 20 km/h at the edge of the carriageway, and must give way to pedestrians.",
+      "rule": "Ch. 2 & Ch. 28 — Personal mobility devices"
+    },
+    {
+      "id": "vulnerable-04",
+      "category": "vulnerable",
+      "question": "A bus marked as carrying an organised group of children has stopped with its hazard lights on. What must you do?",
+      "options": [
+        "Overtake at reduced speed",
+        "Slow down and, if necessary, stop to let the children pass",
+        "Continue normally",
+        "Sound the horn before passing"
+      ],
+      "answer": 1,
+      "explanation": "Drivers approaching a stopped vehicle displaying the 'children' identification mark with hazards on must reduce speed and, if necessary, stop to let children get on or off safely.",
+      "rule": "Ch. 17 & Ch. 26 — Crossings; transport of people"
+    },
+    {
+      "id": "vulnerable-05",
+      "category": "vulnerable",
+      "question": "Where there is no pavement or verge, on which side of the carriageway should a pedestrian walk?",
+      "options": [
+        "On the right, with the traffic",
+        "On the left edge, facing oncoming traffic",
+        "In the centre of the road",
+        "Either side, as convenient"
+      ],
+      "answer": 1,
+      "explanation": "Pedestrians walking on the carriageway must keep to the edge and move towards oncoming traffic so that they can see approaching vehicles.",
+      "rule": "Ch. 4 — Obligations of pedestrians"
+    },
+    {
+      "id": "firstaid-01",
+      "category": "firstaid",
+      "question": "You are involved in a road accident with injuries. What is your first obligation?",
+      "options": [
+        "Move your vehicle to clear the road",
+        "Stop immediately, switch on hazard lights, display the warning triangle, and give first aid to the injured and call an ambulance and the police",
+        "Photograph the scene and leave",
+        "Exchange contact details and drive on"
+      ],
+      "answer": 1,
+      "explanation": "The driver must stop, secure the scene with hazards and the triangle, take all measures to help the injured, call an ambulance and the police, and remain at the scene.",
+      "rule": "Ch. 3 — Driver obligations in a road accident"
+    },
+    {
+      "id": "firstaid-02",
+      "category": "firstaid",
+      "question": "An injured person is unconscious but breathing normally. What is the correct action?",
+      "options": [
+        "Sit them upright and give them water",
+        "Place them in the recovery position on their side and keep monitoring their breathing",
+        "Start chest compressions immediately",
+        "Leave them exactly as they are and do nothing"
+      ],
+      "answer": 1,
+      "explanation": "An unconscious casualty who is breathing should be turned onto their side so the airway stays clear and vomit cannot be inhaled, with breathing checked continuously.",
+      "rule": "First aid"
+    },
+    {
+      "id": "firstaid-03",
+      "category": "firstaid",
+      "question": "A casualty has severe arterial bleeding from the arm. What should you do first?",
+      "options": [
+        "Wash the wound thoroughly with water",
+        "Apply direct pressure to the wound and, if bleeding does not stop, a tourniquet above it, noting the time it was applied",
+        "Give the casualty a painkiller",
+        "Wait for the ambulance without touching the wound"
+      ],
+      "answer": 1,
+      "explanation": "Arterial bleeding is the most urgent threat: apply firm direct pressure, then a tourniquet above the wound if needed, and record the time it went on.",
+      "rule": "First aid"
+    },
+    {
+      "id": "firstaid-04",
+      "category": "firstaid",
+      "question": "When should you move an injured person out of a crashed vehicle?",
+      "options": [
+        "Always, immediately, to make them comfortable",
+        "Only when there is a direct threat to life such as fire, or when they need resuscitation that cannot be given in place",
+        "Never, under any circumstances",
+        "Only if they ask you to"
+      ],
+      "answer": 1,
+      "explanation": "Moving a casualty risks aggravating spinal injuries, so it is justified only by an immediate danger such as fire or the need for resuscitation that cannot be performed where they lie.",
+      "rule": "First aid"
+    },
+    {
+      "id": "firstaid-05",
+      "category": "firstaid",
+      "question": "In an accident with no injuries and where the drivers agree on what happened, what are they permitted to do?",
+      "options": [
+        "Leave immediately without any formalities",
+        "Record the scene, including vehicle positions, and clear the carriageway before completing the formalities as the rules require",
+        "Move the vehicles first and record nothing",
+        "Wait for the police in place no matter how long it takes"
+      ],
+      "answer": 1,
+      "explanation": "Where there are no casualties, drivers must first record the position of the vehicles, traces and objects before clearing the carriageway, since obstructing traffic is itself an offence.",
+      "rule": "Ch. 3 — Driver obligations in a road accident"
+    },
+    {
+      "id": "vehicle-01",
+      "category": "vehicle",
+      "question": "Which defect makes further driving prohibited outright, rather than merely requiring you to drive to a repair place?",
+      "options": [
+        "A burnt-out interior light",
+        "A faulty service brake system or steering",
+        "A cracked wing mirror housing",
+        "A worn seat cover"
+      ],
+      "answer": 1,
+      "explanation": "Faulty service brakes, faulty steering, and inoperative wipers on the driver's side in rain or snow prohibit movement; other listed faults allow driving only to a place of repair or parking.",
+      "rule": "Ch. 2 — General obligations of drivers"
+    },
+    {
+      "id": "vehicle-02",
+      "category": "vehicle",
+      "question": "What is the maximum permitted distance between vehicles on a flexible tow rope?",
+      "options": [
+        "Between 2 and 4 metres",
+        "Between 4 and 6 metres",
+        "Between 6 and 10 metres",
+        "No limit, provided the rope is marked"
+      ],
+      "answer": 1,
+      "explanation": "Flexible towing requires a distance of 4 to 6 metres, with the rope marked by warning flags or reflective panels; rigid towing must not exceed 4 metres.",
+      "rule": "Ch. 24 — Towing mechanical vehicles"
+    },
+    {
+      "id": "vehicle-03",
+      "category": "vehicle",
+      "question": "Which vehicle may not be towed on a flexible rope?",
+      "options": [
+        "A vehicle with an automatic gearbox",
+        "A vehicle whose braking system is not working",
+        "A vehicle with a trailer coupling",
+        "A vehicle registered abroad"
+      ],
+      "answer": 1,
+      "explanation": "A vehicle with an inoperative braking system cannot be towed on a flexible rope; rigid towing or transport on a platform is required.",
+      "rule": "Ch. 24 — Towing mechanical vehicles"
+    },
+    {
+      "id": "vehicle-04",
+      "category": "vehicle",
+      "question": "By how much may a load project beyond the rear of the vehicle before it must be marked with a warning sign?",
+      "options": [
+        "0.5 metres", "1 metre", "1.5 metres", "2 metres"
+      ],
+      "answer": 1,
+      "explanation": "A load projecting more than 1 metre beyond the rear (or more than 0.4 m beyond the outer edge of the front or rear lights on the sides) must be marked with the 'oversized load' sign, and with lights or reflectors at night.",
+      "rule": "Ch. 27 — Transport of cargo"
+    },
+    {
+      "id": "vehicle-05",
+      "category": "vehicle",
+      "question": "Is it permitted to tow a vehicle when visibility is less than 300 metres due to fog?",
+      "options": [
+        "Yes, with hazard lights on",
+        "No — towing is prohibited in conditions of poor visibility",
+        "Yes, but only outside populated areas",
+        "Yes, at up to 20 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Towing is prohibited in icy conditions and when visibility is insufficient, since the combination is far harder to control and to see.",
+      "rule": "Ch. 24 — Towing mechanical vehicles"
+    },
+    {
+      "id": "signs-01",
+      "category": "signs",
+      "question": "A triangular sign with a red border and a white background is:",
+      "options": [
+        "A prohibition sign",
+        "A warning sign",
+        "A priority sign",
+        "An information sign"
+      ],
+      "answer": 1,
+      "explanation": "Triangular signs with a red border warn of a hazard ahead. Round signs with a red border prohibit; blue round signs are mandatory.",
+      "rule": "Ch. 8 & Annex — Road signs"
+    },
+    {
+      "id": "signs-02",
+      "category": "signs",
+      "question": "What does the yellow diamond sign with a white border mean?",
+      "options": [
+        "End of all restrictions",
+        "You are on a priority (main) road",
+        "Give way ahead",
+        "Parking area"
+      ],
+      "answer": 1,
+      "explanation": "The yellow diamond is the 'main road' sign: you have priority at the intersections it covers until the 'end of main road' sign appears.",
+      "rule": "Priority signs"
+    },
+    {
+      "id": "signs-03",
+      "category": "signs",
+      "question": "A downward-pointing triangle with a red border and white centre requires you to:",
+      "options": [
+        "Stop unconditionally at the line",
+        "Give way to traffic on the crossing road",
+        "Continue without changing speed",
+        "Turn right only"
+      ],
+      "answer": 1,
+      "explanation": "This is the 'give way' sign: you must yield to traffic on the intersecting road, but you need not stop if the way is clear. The octagonal STOP sign requires an unconditional stop.",
+      "rule": "Priority signs"
+    },
+    {
+      "id": "signs-04",
+      "category": "signs",
+      "question": "What is required at an octagonal red STOP sign at an intersection?",
+      "options": [
+        "Slow down and proceed if clear",
+        "Stop completely at the stop line or the edge of the intersecting carriageway, then give way",
+        "Stop only if another vehicle is visible",
+        "Sound the horn and proceed"
+      ],
+      "answer": 1,
+      "explanation": "The STOP sign requires a full stop at the stop line — or, if there is none, at the edge of the intersecting carriageway — before giving way.",
+      "rule": "Priority signs"
+    },
+    {
+      "id": "signs-05",
+      "category": "signs",
+      "question": "A solid single line marking the centre of the carriageway means:",
+      "options": [
+        "It may be crossed when overtaking",
+        "It must not be crossed",
+        "It may be crossed only by public transport",
+        "It marks the edge of the carriageway"
+      ],
+      "answer": 1,
+      "explanation": "A solid longitudinal line separating traffic streams must not be crossed. A broken line may be crossed; where a solid and a broken line run together, it may be crossed only from the broken side.",
+      "rule": "Road markings"
+    },
+    {
+      "id": "signs-06",
+      "category": "signs",
+      "question": "Signs 3.20 ('overtaking prohibited') and 3.22 are in force. What are you forbidden to do?",
+      "options": [
+        "Change lanes",
+        "Overtake other vehicles in the zone covered by the sign",
+        "Exceed 40 km/h",
+        "Stop on the shoulder"
+      ],
+      "answer": 1,
+      "explanation": "These signs prohibit overtaking in their zone of operation, which lasts until the corresponding 'end of prohibition' sign or the nearest intersection.",
+      "rule": "Ch. 12 — Overtaking; prohibition signs"
+    },
+    {
+      "id": "signs-07",
+      "category": "signs",
+      "question": "You see a blue round sign with a white arrow pointing right. What does it mean?",
+      "options": [
+        "Turning right is prohibited",
+        "You must turn right — it is a mandatory direction sign",
+        "A right turn is recommended",
+        "There is a right bend ahead"
+      ],
+      "answer": 1,
+      "explanation": "Blue circular signs are mandatory: they prescribe the direction of travel, unlike red-bordered circles, which prohibit.",
+      "rule": "Mandatory signs"
+    },
+    {
+      "id": "signs-08",
+      "category": "signs",
+      "question": "What does a white rectangular sign with a black settlement silhouette mark?",
+      "options": [
+        "A tourist attraction",
+        "The start of a populated area, where the populated-area rules and speed limits apply",
+        "A parking area",
+        "A bus station"
+      ],
+      "answer": 1,
+      "explanation": "The sign marks the beginning of a populated area on a white background, which brings the populated-area rules into force, including the speed limit and the ban on unnecessary horn use.",
+      "rule": "Information signs"
+    }
+  ]
+}

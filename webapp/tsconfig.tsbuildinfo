@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/components/QuestionCard.tsx","./src/lib/questions.ts","./src/lib/storage.ts","./src/lib/telegram.ts","./src/screens/Home.tsx","./src/screens/ProgressScreen.tsx","./src/screens/Quiz.tsx","./src/screens/Result.tsx"],"version":"5.9.3"}
