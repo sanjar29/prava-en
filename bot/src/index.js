@@ -26,9 +26,11 @@ const bot = new Telegraf(TOKEN)
 const openAppKeyboard = () =>
   WEBAPP_URL
     ? Markup.inlineKeyboard([
-        [Markup.button.webApp('🚗 Open Prava EN', WEBAPP_URL)],
-        [Markup.button.callback('📚 Quick quiz', 'topics')],
-        [Markup.button.callback('📅 Question of the day', 'daily')],
+        [Markup.button.webApp('🚗 Start practising', WEBAPP_URL)],
+        [
+          Markup.button.callback('📚 Quick quiz', 'topics'),
+          Markup.button.callback('📅 Daily question', 'daily'),
+        ],
       ])
     : Markup.inlineKeyboard([
         [Markup.button.callback('📚 Quick quiz', 'topics')],
@@ -133,19 +135,24 @@ async function startRound(ctx, categoryId) {
   await sendRoundQuestion(ctx, session)
 }
 
+/**
+ * /start is the only screen most people will ever judge this bot on, so it
+ * stays short and puts the app one tap away. Detail belongs in /help, not here.
+ */
 bot.start(async (ctx) => {
-  await setUser(ctx.from.id, { username: ctx.from.username ?? null, name: ctx.from.first_name ?? null })
+  await setUser(ctx.from.id, {
+    username: ctx.from.username ?? null,
+    name: ctx.from.first_name ?? null,
+  })
+
+  const first = ctx.from.first_name ? `${ctx.from.first_name}, t` : 'T'
   await ctx.reply(
     [
-      `Welcome${ctx.from.first_name ? `, ${ctx.from.first_name}` : ''} 👋`,
+      `${first}he Uzbekistan driving theory exam — in English. 🇺🇿`,
       '',
-      'Prava EN prepares you for the Uzbekistan driving theory exam — in English.',
+      `${questions.length} questions, every answer explained, and a mock exam under real conditions: ${bank.meta.exam.questionCount} questions in ${bank.meta.exam.timeLimitMinutes} minutes, ${bank.meta.exam.maxMistakes} mistakes allowed.`,
       '',
-      `• ${questions.length} questions across ${bank.categories.length} topics`,
-      `• Mock exam in real conditions: ${bank.meta.exam.questionCount} questions, ${bank.meta.exam.timeLimitMinutes} minutes, max ${bank.meta.exam.maxMistakes} mistakes`,
-      '• Every answer comes with an explanation and the rule it comes from',
-      '',
-      'Send /quiz to try a topic right here in the chat, or /daily for one question each morning.',
+      WEBAPP_URL ? 'Tap below to start practising.' : 'Tap below for a quick quiz.',
     ].join('\n'),
     openAppKeyboard(),
   )
